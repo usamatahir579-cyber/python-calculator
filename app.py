@@ -61,5 +61,3 @@ if st.button("Simulate"):
 
     st.pyplot(fig2)
 
-
-        # python -m streamlit run app.py
