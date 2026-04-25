@@ -1,55 +1,64 @@
-# 🧮 Python Calculator
+# 🚀 Projectile Motion Simulator
 
-A simple and clean calculator built using Python.  
-This project performs basic arithmetic operations and is designed as a beginner-friendly Python project.
-
----
-
-## ✨ Features
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- User input handling
-- Simple command-line interface
+A physics-based web app that simulates projectile motion in real time.  
+Built with Python and Streamlit — no math degree required to use it.
 
 ---
 
-## 🛠️ Technologies Used
+## 🎯 What It Does
+
+Enter a launch velocity and angle, click **Simulate**, and instantly get:
+
+- ⏱ **Time of Flight** — how long the object stays in the air
+- 📈 **Maximum Height** — the peak point of the trajectory  
+- 📏 **Horizontal Range** — total distance covered
+
+Plus a **live trajectory graph** and an **interactive slider** that moves the 
+projectile along its path step by step.
+
+---
+
+## 🛠️ Built With
+
 - Python 3
+- Streamlit — for the interactive web UI
+- NumPy — for physics calculations
+- Matplotlib — for trajectory plotting
 
 ---
 
-## ▶️ How to Run
+## ▶️ Run It Locally
 
-1. Clone the repository:
 ```bash
 git clone https://github.com/usamatahir579-cyber/python-calculator.git
-```
-
-2. Move into the folder:
-```bash
 cd python-calculator
+pip install streamlit numpy matplotlib
+python -m streamlit run app.py
 ```
 
-3. Run the program:
-```bash
-python calculator.py
-```
+The app opens in your browser automatically at `http://localhost:8501`
 
 ---
 
-## 🎯 Purpose of This Project
-This project was built to practice Python fundamentals and logic building as a beginner developer.
+## 🧠 The Physics Behind It
 
----
+| Variable | Formula |
+|---|---|
+| Time of Flight | `T = 2u·sin(θ) / g` |
+| Max Height | `H = u²·sin²(θ) / 2g` |
+| Horizontal Range | `R = u²·sin(2θ) / g` |
 
-## 📌 Future Improvements
-- Add GUI version (Tkinter or Streamlit)
-- Add scientific calculator features
-- Improve error handling
+Where `u` = initial velocity, `θ` = launch angle, `g` = 9.8 m/s²
 
 ---
 
 ## 👨‍💻 Author
+
+**Usama Tahir** — Physics student & Python developer  
+📧 Need a custom Python tool or data script? 
+**[Hire me on Fiverr →](https://www.fiverr.com/users/renausama)**
+
+---
+
+## ⭐ If you find this useful, give it a star!
 Usama Tahir
