@@ -17,6 +17,9 @@ Plus a **live trajectory graph** and an **interactive slider** that moves the
 projectile along its path step by step.
 
 ---
+Demo:
+![App Demo](demo.png)
+---
 
 ## 🛠️ Built With
 
